@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Корзина</title>
+	<link rel="stylesheet" href="basket.css">
+</head>
+
+<body>
+	<div class="container">
+		<header class="main-header">
+			<button type="button" class="button__basket">
+				<span>Корзина</span>
+				<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-caret-down-fill"
+					viewBox="0 0 16 16">
+					<path
+						d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+				</svg>
+			</button>
+			<div class="in-basket close"></div>
+		</header>
+		<main>
+			<h1 class="hidden">Товары</h1>
+			<section class="cards">
+				<div class="card">
+					<h2 class="card__name">Товар 1</h2>
+					<img src="https://placeimg.com/1920/1080/nature" alt="Товар 1" class="card__photo"> 
+					<span class="card__price"><span class="card__price-count">120 </span>₽</span>
+					<button type="button" class="card__in-basket">В корзину</button>
+				</div>
+				<div class="card">
+					<h2 class="card__name">Товар 2</h2>
+					<img src="https://placeimg.com/1920/1080/arch" alt="Товар 2" class="card__photo"> 
+					<span class="card__price"><span class="card__price-count">75 </span>₽</span>
+					<button type="button" class="card__in-basket">В корзину</button>
+				</div>
+				<div class="card">
+					<h2 class="card__name">Товар 3</h2>
+					<img src="https://placeimg.com/1920/1080/tech" alt="Товар 3" class="card__photo">
+					<span class="card__price"><span class="card__price-count">3000 </span>₽</span>
+					<button type="button" class="card__in-basket">В корзину</button>
+				</div>
+			</section>
+		</main>
+	</div>
+	<script src="basket.js"></script>
+</body>
+
+</html>
