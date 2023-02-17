@@ -82,11 +82,17 @@ table tbody tr td:first-child{
 	position: absolute;
 	right: 15px;
 	top: 50px;
-	max-width: 400px;
+	width: 450px;
 	border: 1px solid rgba(0,0,0,.2);
 	border-radius: 0.3rem;
 	background-color: #fff;
 	margin-left: 15px;
+}
+
+@media (max-width: 576px){
+	.in-basket {
+		width: 288px;
+	}
 }
 
 .in-basket.close{
